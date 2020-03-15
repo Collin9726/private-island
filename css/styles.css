@@ -1,0 +1,77 @@
+body{
+    background-color: #f4f4f4;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    width: 80%;
+}
+
+a{
+    text-decoration: none;
+    color:#000;
+}
+
+a:hover{
+    color: blue;
+}
+
+.button:hover{
+    color: blue; /* add button class*/
+}
+
+.logo {
+    border: 1px #f4f4f4 solid;
+    float: left;
+    margin-right: 10px;
+}
+
+.header {        
+    border: 1px #f4f4f4 solid;
+    width: 100%;
+    padding: 10px;
+    background-image:url("../images/navbar.jpg");    
+    background-size: cover;
+    line-height: 0.1em;    
+}
+
+.otherLinks{
+    float: right;
+    word-spacing: 0.3em;
+}
+
+.homepage{
+    text-align: center;
+    position: relative;
+    border: 1px #f4f4f4 solid;
+    
+    width: 100%;
+    height: 800px;
+    padding: 10px;
+    background-image:url("../images/homebackground.jpg");     
+    background-size: cover;      
+    background-repeat: no-repeat; 
+    line-height: 1em;
+}
+
+.homecontent{
+    position: relative;
+    text-align: center;    
+    line-height: 3em;    
+    top:40px;
+    font-size: larger;  
+    font-weight: 500;      
+}
+
+.homecontent h1{
+    font-size: 3em;
+}
+
+.buttonhome{
+    text-align: center;
+    line-height: 3em;
+    position: absolute;
+    bottom:0.1em;
+    right:50%;    
+}
+
+
